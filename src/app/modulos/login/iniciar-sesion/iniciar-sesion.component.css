@@ -1,0 +1,29 @@
+/*#login-page {
+    width: 500px;
+ }*/
+ 
+/*.card {
+    
+      left: 50%;
+      top: 50%;
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+ }
+ */
+ 
+ .show-errors{
+    color: #b71c1c;
+}
+.hipervinculo{
+   color: #1b5e20;
+   font-style: italic;
+   font-weight: bold;
+}
+.hipervinculo2{
+   color: #1b5e20;
+   font-weight: bold;
+}
+

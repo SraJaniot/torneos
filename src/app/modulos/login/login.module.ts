@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+import { ReactiveFormsModule } from '@angular/forms';
 import { LoginRoutingModule } from './login-routing.module';
 import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.component';
 import { CerrarSesionComponent } from './cerrar-sesion/cerrar-sesion.component';
@@ -17,11 +18,14 @@ import { VerificacionCodigoComponent } from './verificacion-codigo/verificacion-
     OlvidarClaveComponent,
     RecuperarClaveComponent,
     RegistrarseComponent,
-    VerificacionCodigoComponent
+    VerificacionCodigoComponent,
   ],
   imports: [
     CommonModule,
-    LoginRoutingModule
+    LoginRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
+    
   ]
 })
 export class LoginModule { }
