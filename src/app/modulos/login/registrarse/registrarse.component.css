@@ -9,7 +9,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background: #4ECDC4;
+    background: black;
 }
 
 #login-page {
@@ -40,3 +40,10 @@ body {
     color: #1b5e20;
     font-weight: bold;
  }
+ .cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+ }
+ 
